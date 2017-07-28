@@ -36,6 +36,11 @@ const fragment /*: ConcreteFragment*/ = {
   "name": "ListPage_viewer",
   "selections": [
     {
+      "kind": "FragmentSpread",
+      "name": "Post_viewer",
+      "args": null
+    },
+    {
       "kind": "LinkedField",
       "alias": "allPosts",
       "args": null,
